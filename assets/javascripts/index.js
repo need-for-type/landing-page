@@ -37,16 +37,16 @@ function renderColors(done, current, left) {
   $(".try-text").html("");
 
   $("<span>").text(done).css({
-    color: "#a9d3ab"
+    color: "#a9d3ab",
   }).appendTo(".try-text");
 
   current_color = failed ? "#f58972" : "#ffcc66";
 
   $("<span>").text(current).css({
-    color: current_color
+    color: current_color,
   }).appendTo(".try-text");
 
   $("<span>").text(left).css({
-    color: "#fff"
+    color: "#fff",
   }).appendTo(".try-text");
 }
