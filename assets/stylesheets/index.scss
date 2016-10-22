@@ -17,11 +17,13 @@ a {
 .window {
   font-family: HelveticaNeue, 'Helvetica Neue', 'Lucida Grande', Arial, sans-serif;
   background: #3b3b3b;
-  width: 90vw;
-  height: 98vh;
+  width: 90%;
+  height: auto;
   margin: auto;
   border: 1px solid #acacac;
   border-radius: 6px;
+  margin-top: 5%;
+  margin-bottom: 5%;
 }
 
 .titlebar {
