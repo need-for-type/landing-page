@@ -1,30 +1,27 @@
-@import 'https://fonts.googleapis.com/css?family=Source+Code+Pro';
+@import "https://fonts.googleapis.com/css?family=Source+Code+Pro";
 body {
   display: flex;
   align-items: center;
   justify-content: center;
   background: #eaeae2;
   color: #fff;
-}
+  font-size: 1rem; }
 
 a {
-  text-decoration: none;
-}
+  text-decoration: none; }
 
 .btn {
   line-height: 9px;
-  vertical-align: 50%;
-}
+  vertical-align: 50%; }
 
 .window {
-  font-family: HelveticaNeue, "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
+  font-family: HelveticaNeue, 'Helvetica Neue', 'Lucida Grande', Arial, sans-serif;
   background: #3b3b3b;
   width: 90%;
   height: auto;
   border: 1px solid #acacac;
   border-radius: 6px;
-  max-width: 60%;
-}
+  max-width: 60%; }
 
 .titlebar {
   background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #ebebeb, color-stop(1, #d5d5d5)));
@@ -48,19 +45,16 @@ a {
   -moz-user-select: none;
   -ms-user-select: none;
   -o-user-select: none;
-  cursor: default;
-}
+  cursor: default; }
 
 .buttons {
   padding-left: 8px;
   padding-top: 3px;
   float: left;
-  line-height: 0px;
-}
+  line-height: 0px; }
 
 .buttons:hover a {
-  visibility: visible;
-}
+  visibility: visible; }
 
 .close {
   background: #ff5c5c;
@@ -69,23 +63,19 @@ a {
   height: 11px;
   border: 1px solid #e33e41;
   border-radius: 50%;
-  display: inline-block;
-}
+  display: inline-block; }
 
 .close:active {
   background: #c14645;
-  border: 1px solid #b03537;
-}
+  border: 1px solid #b03537; }
 
 .close:active .closebutton {
-  color: #4e0002;
-}
+  color: #4e0002; }
 
 .closebutton {
   color: #820005;
   visibility: hidden;
-  cursor: default;
-}
+  cursor: default; }
 
 .minimize {
   background: #ffbd4c;
@@ -96,23 +86,19 @@ a {
   height: 11px;
   border: 1px solid #e09e3e;
   border-radius: 50%;
-  display: inline-block;
-}
+  display: inline-block; }
 
 .minimize:active {
   background: #c08e38;
-  border: 1px solid #af7c33;
-}
+  border: 1px solid #af7c33; }
 
 .minimize:active .minimizebutton {
-  color: #5a2607;
-}
+  color: #5a2607; }
 
 .minimizebutton {
   color: #9a5518;
   visibility: hidden;
-  cursor: default;
-}
+  cursor: default; }
 
 .zoom {
   background: #00ca56;
@@ -123,55 +109,52 @@ a {
   height: 11px;
   border: 1px solid #14ae46;
   border-radius: 50%;
-  display: inline-block;
-}
+  display: inline-block; }
 
 .zoom:active {
   background: #029740;
-  border: 1px solid #128435;
-}
+  border: 1px solid #128435; }
 
 .zoom:active .zoombutton {
-  color: #003107;
-}
+  color: #003107; }
 
 .zoombutton {
   color: #006519;
   visibility: hidden;
-  cursor: default;
-}
+  cursor: default; }
 
 .logo {
   margin-top: 15px;
-  display: inline-flex;
-}
+  display: inline-flex; }
 
 pre {
-  color: #ff5c5c;
-}
+  color: #ff5c5c; }
 
 .content {
-  font-family: "Source Code Pro", monospace;
-  padding: 10px;
-}
-.content .title {
-  background: #fff;
-  display: inline-block;
-  margin-top: 20px;
-}
-.content .title h3 {
-  margin-bottom: 0px;
-  color: #000;
-  font-weight: 100;
-}
-.content a {
-  color: #fff;
-}
+  font-family: 'Source Code Pro', monospace;
+  padding: 10px; }
+  .content .title {
+    background: #fff;
+    display: inline-block;
+    margin-top: 20px; }
+    .content .title h3 {
+      margin-bottom: 0px;
+      color: #000;
+      font-weight: 100; }
+  .content a {
+    color: #fff; }
 
 .team ul {
-  padding-left: 1em;
-}
+  padding-left: 1em; }
 
 h3 {
-  margin-top: 0px;
-}
+  margin-top: 0px; }
+
+@media screen and (max-width: 600px) {
+  body {
+    font-size: 0.8rem; }
+
+  .logo {
+    display: none; } }
+
+/*# sourceMappingURL=index.css.map */

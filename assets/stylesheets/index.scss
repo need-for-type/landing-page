@@ -6,6 +6,7 @@ body {
   justify-content: center;
   background: #eaeae2;
   color: #fff;
+  font-size: 1rem;
 }
 
 a {
@@ -180,4 +181,14 @@ pre {
 
 h3 {
   margin-top: 0px;
+}
+
+@media screen and (max-width: 600px) {
+  body {
+    font-size: 0.8rem;
+  }
+
+  .logo {
+    display: none;
+  }
 }
