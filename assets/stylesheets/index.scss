@@ -17,7 +17,6 @@ a {
 .window {
   font-family: HelveticaNeue, 'Helvetica Neue', 'Lucida Grande', Arial, sans-serif;
   background: #3b3b3b;
-  max-width: 60%;
   width: 90%;
   height: auto;
   margin: auto;
@@ -25,6 +24,7 @@ a {
   border-radius: 6px;
   margin-top: 5%;
   margin-bottom: 5%;
+  max-width: 60%;
 }
 
 .titlebar {

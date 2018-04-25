@@ -13,14 +13,14 @@ a {
 .window {
   font-family: HelveticaNeue, 'Helvetica Neue', 'Lucida Grande', Arial, sans-serif;
   background: #3b3b3b;
-  max-width: 60%;
   width: 90%;
   height: auto;
   margin: auto;
   border: 1px solid #acacac;
   border-radius: 6px;
   margin-top: 5%;
-  margin-bottom: 5%; }
+  margin-bottom: 5%;
+  max-width: 60%; }
 
 .titlebar {
   background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #ebebeb, color-stop(1, #d5d5d5)));
