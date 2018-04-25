@@ -121,6 +121,10 @@ a {
   visibility: hidden;
   cursor: default; }
 
+.logo {
+  margin-top: 15px;
+  display: inline-flex; }
+
 pre {
   color: #ff5c5c; }
 
