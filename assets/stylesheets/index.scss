@@ -1,6 +1,9 @@
 @import 'https://fonts.googleapis.com/css?family=Source+Code+Pro';
 
 body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   background: #eaeae2;
   color: #fff;
 }
@@ -19,11 +22,8 @@ a {
   background: #3b3b3b;
   width: 90%;
   height: auto;
-  margin: auto;
   border: 1px solid #acacac;
   border-radius: 6px;
-  margin-top: 5%;
-  margin-bottom: 5%;
   max-width: 60%;
 }
 
